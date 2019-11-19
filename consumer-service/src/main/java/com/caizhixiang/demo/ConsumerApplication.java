@@ -8,14 +8,14 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * @author caizhixiang
  * @description:
- * @Date 2019-11-19 11:20
+ * @Date 2019-11-19 17:01
  * @Version 1.0
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ProviderApplication {
+public class ConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 }
